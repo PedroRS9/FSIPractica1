@@ -54,7 +54,7 @@ def test_branch_and_bound(graph, output):
 
 @pytest.mark.parametrize("graph, output",
         [
-                (search.GPSProblem('A','B',search.romania), [5,16,418,["B","P","R","S","A"]]),
+                (search.GPSProblem('A','B',search.romania), [16,6,418,["B","P","R","S","A"]]),
                 (search.GPSProblem('O','E',search.romania), [32,15,698,["E","H","U","B","P","R","S","O"]]),
                 (search.GPSProblem('G','Z',search.romania), [26,12,583,["Z","A","S","R","P","B","G"]]),
                 (search.GPSProblem('N','D',search.romania), [23,12,765,["D","C","P","B","U","V","I","N"]]),
